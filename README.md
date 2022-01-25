@@ -1,7 +1,7 @@
 # Design-Patterns-JS
 Software design patterns implemented in JavaScript
 
-In this repository, I have built the same project (Todo App) using different software design patterns.
+In this repository, I have built the same project (Todo App) using different software design patterns so that it will give you a better understanding of where and how to implement these design patterns to solve real-world problems
 
 ## Introduction
 In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), a **software design pattern** is a general, reusable solution to a commonly occurring problem within a given context in [software design](https://en.wikipedia.org/wiki/Software_design). It is not a finished design that can be transformed directly into [source](https://en.wikipedia.org/wiki/Source_code) or [machine code](https://en.wikipedia.org/wiki/Machine_code). Rather, it is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
