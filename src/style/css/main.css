@@ -70,4 +70,66 @@ html {
   border: none;
   border-radius: 0.5rem;
 }
+
+#form-group {
+  width: 75%;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
+#form-group h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#form-group label {
+  font-size: 1.75rem;
+  color: #4a4a4a;
+}
+
+#form-group input,
+#form-group textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 0.25rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#form-group input:focus,
+#form-group textarea:focus {
+  border-color: #0082e6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#form-group input {
+  margin-bottom: 1.5rem;
+}
+
+#form-group textarea {
+  resize: vertical;
+}
+
+#form-group button {
+  background: #0082e6;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+#form-group button:hover {
+  background: #1b9bff;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
 /*# sourceMappingURL=main.css.map */
