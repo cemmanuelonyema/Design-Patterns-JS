@@ -2,7 +2,11 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../scss/main.scss"
+        "../scss/main.scss",
+        "../scss/_variables.scss",
+        "../scss/_generics.scss",
+        "../scss/_config.scss",
+        "../scss/_navbar.scss"
     ],
     "names": [],
     "file": "main.css"
