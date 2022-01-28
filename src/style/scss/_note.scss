@@ -1,0 +1,51 @@
+.notes {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	width: $notes-container-width;
+
+	margin: auto;
+	padding: 2rem 0;
+
+	.note {
+		background: white;
+
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+
+		border-radius: 1rem;
+
+		padding: 1rem;
+		margin: 1rem;
+
+		.title {
+			font-size: 2rem;
+
+			margin-bottom: 1rem;
+		}
+
+		.description {
+			font-size: 1.5rem;
+
+			margin-bottom: 2rem;
+		}
+
+		.action {
+			i {
+				font-size: 2rem;
+				font-weight: bold;
+
+				margin-right: 1rem;
+
+				cursor: pointer;
+
+				&.fa-edit {
+					color: $theme-color;
+				}
+
+				&.fa-trash {
+					color: red;
+				}
+			}
+		}
+	}
+}
