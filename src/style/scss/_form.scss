@@ -28,10 +28,14 @@
 
 		width: 100%;
 
+		background-color: inherit;
+
 		@include transition(0.5s);
 
 		&:focus {
 			border-color: $theme-color;
+
+			background-color: white;
 
 			@include transition(0.5s);
 		}
