@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
