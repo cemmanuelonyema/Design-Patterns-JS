@@ -6,7 +6,9 @@
         "../scss/_variables.scss",
         "../scss/_generics.scss",
         "../scss/_config.scss",
-        "../scss/_navbar.scss"
+        "../scss/_navbar.scss",
+        "../scss/_form.scss",
+        "../scss/_note.scss"
     ],
     "names": [],
     "file": "main.css"
