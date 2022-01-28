@@ -15,11 +15,6 @@ Design patterns had originally been categorized into 3 sub-classifications based
 - Creational patterns provide the capability to create objects based on a required criterion and in a controlled way. 
 - Structural patterns are about organizing different classes and objects to form larger structures and provide new functionality. 
 - Behavioral patterns are about identifying common communication patterns between objects and realizing these patterns.
-- Concurrency patterns are those types of design patterns that deal with the multi-threaded programming paradigm
-
----
-
-> **Note**: * means important
 
 ---
 
@@ -30,15 +25,42 @@ Creational design patterns are composed of two dominant ideas. One is encapsulat
 
 Creational design patterns are further categorized into object-creational patterns and class-creational patterns, where object-creational patterns deal with object creation and class-creational patterns deal with class-instantiation. In greater details, object-creational patterns defer part of its object creation to another object, while class-creational patterns defer its object creation to subclasses.
 
-- **Abstract Factory Pattern***: Provides an interface for creating related or dependent objects without specifying the objects' concrete classes
-- **Builder Pattern***: Separates the construction of a complex object from its representation so that the same construction process can create different representations
-- **Factory Method Pattern***: Allows a class to defer instantiation to subclasses
-- **Prototype Pattern***: Specifies the kind of object to create using a prototypical instance, and creates new objects by cloning this prototype
-- **Singleton Pattern***: Ensures that a class only has one instance, and provides a global point of access to it
-- **Dependency Injection**: A class accepts the objects it requires from an injector instead of creating the objects directly
-- **Lazy Initialization**: Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern) pattern
-- **Multiton**: Ensure a class has only named instances, and provide a global point of access to them
-- **Object Pool**: Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of [connection pool](https://en.wikipedia.org/wiki/Connection_pool) and [thread pool](https://en.wikipedia.org/wiki/Thread_pool) patterns
-- **Resource Acquisition Is Initialization (RAII)**: Ensure that resources are properly released by tying them to the lifespan of suitable objects
+- **Abstract Factory Pattern**: Provides an interface for creating related or dependent objects without specifying the objects' concrete classes
+- **Builder Pattern**: Separates the construction of a complex object from its representation so that the same construction process can create different representations
+- **Factory Method Pattern**: Allows a class to defer instantiation to subclasses
+- **Prototype Pattern**: Specifies the kind of object to create using a prototypical instance, and creates new objects by cloning this prototype
+- **Singleton Pattern**: Ensures that a class only has one instance, and provides a global point of access to it
 
 ---
+
+### 🏗️ Structural Patterns
+In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), **structural design patterns** are design patterns that ease the design by identifying a simple way to realize relationships among entities
+
+- **Adapter/Wrapper/Translator**: Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator
+- **Bridge**: Decouple an abstraction from its implementation allowing the two to vary independently
+- **Composite**: Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly
+- **Decorator**: Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality
+- **Facade**: Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use
+- **Flyweight**: Use sharing to support large numbers of similar objects efficiently
+- **Proxy**: Provide a surrogate or placeholder for another object to control access to it
+
+---
+
+### 👀 Behaviorial Patterns
+In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), **behavioral design patterns** are design patterns that identify common communication patterns among objects. By doing so, these patterns increase flexibility in carrying out communication
+
+- **Chain of Responsibility**: Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it
+- **Command**: Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations
+- **Interpreter**: Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language
+- **Iterator**: Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation
+- **Mediator**: Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently
+- **Memento**: Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later
+- **Observer or Publish/Subscribe**: Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically
+- **State**: Allow an object to alter its behavior when its internal state changes. The object will appear to change its class
+- **Strategy**: Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it
+- **Template Method**: Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure
+- **Visitor**: Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates
+
+---
+
+**PostScript**: I will try to add more design patterns :)
